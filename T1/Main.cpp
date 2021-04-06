@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-//#include "Person.h"
+#include "Person.h"
 #include "Tweeter.h"
 #include "Status.h"
 #include "Functions.h"
