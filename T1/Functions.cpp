@@ -1,7 +1,7 @@
 #include "Functions.h"
 #include <iostream>
 using namespace std;
-bool prime(int x)
+bool IsPrime(int x)
 {
     bool _prime = true;
     int i = 2;
@@ -23,6 +23,11 @@ bool prime(int x)
         cout<<"not prime"<<endl;
         cout<<"not prime"<<endl;
     return _prime;  
+}
+bool Is2MorePrime(int x)
+{
+    x = x+2;
+    return IsPrime(x);
 }
 
 
