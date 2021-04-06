@@ -30,6 +30,12 @@ bool Is2MorePrime(int x)
     return IsPrime(x);
 }
 
+// int & BadFunction()
+// {
+//     int a = 3;
+//     return a;
+// }
+
 
 
 

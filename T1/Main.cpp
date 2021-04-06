@@ -48,6 +48,8 @@ int main()
         cout <<" not ";
     cout<< "greater than p2"<<endl;
 
+    // cout<<"return BadFunction = "<<BadFunction()<<endl;
+
 
 
 
