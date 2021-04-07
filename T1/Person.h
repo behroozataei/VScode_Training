@@ -17,6 +17,7 @@ class Person
         int GetNumber(){return arbitrarynumber;}
         void SetNumber(int number){ arbitrarynumber = number;} 
         bool operator < (Person& P);
+        bool operator > (Person& P);
         bool operator < (int i);
         bool operator >>(Person& p);
         friend bool operator <(int i, Person & p);

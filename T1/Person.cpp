@@ -25,6 +25,11 @@ bool Person::operator<(Person& p)
     return arbitrarynumber < p.arbitrarynumber;
 }
 
+bool Person::operator>(Person& p)
+{
+    return arbitrarynumber > p.arbitrarynumber;
+}
+
 bool Person::operator< (int i)
 {
     return arbitrarynumber < i;
