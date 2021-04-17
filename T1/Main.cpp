@@ -50,9 +50,12 @@ int main()
 
     // cout<<"return BadFunction = "<<BadFunction()<<endl;
 
-
-
-
+    Person Kate("Kate", "Gregory", 345);
+    Kate.AddResource();
+    //Kate.AddResource();
+    Person Kate2 = Kate;
+    Kate = Kate2;
+ 
 
 
     // Tweeter P2("Behnam", "Hamidi",  787000, "@shoever");
