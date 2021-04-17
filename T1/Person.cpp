@@ -10,7 +10,7 @@ Person::Person(std::string first,
 
 Person::~Person()
 {
-    std::cout  << "distructing  " << GetName() << std::endl;
+    std::cout  << "Distructing  " << GetName() << std::endl;
 
 
 }
@@ -20,17 +20,12 @@ std::string Person::GetName()
     return firstname + " " + lastname;
 }
 
-bool Person::operator<(Person& p)
+bool Person::operator<(const Person& p) const
 {
     return arbitrarynumber < p.arbitrarynumber;
 }
 
-bool Person::operator>(Person& p)
-{
-    return arbitrarynumber > p.arbitrarynumber;
-}
-
-bool Person::operator< (int i)
+bool Person::operator< (int i) const
 {
     return arbitrarynumber < i;
 }

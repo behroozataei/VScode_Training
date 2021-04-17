@@ -16,9 +16,8 @@ class Person
         std::string GetName();   
         int GetNumber(){return arbitrarynumber;}
         void SetNumber(int number){ arbitrarynumber = number;} 
-        bool operator < (Person& P);
-        bool operator > (Person& P);
-        bool operator < (int i);
+        bool operator < (const Person& P) const;
+        bool operator < (int i) const;
         bool operator >>(Person& p);
         friend bool operator <(int i, Person & p);
         Person();
