@@ -18,3 +18,7 @@ Tweeter::~Tweeter(void)
         twitterhandle << std::endl;
 
 }
+std::string Tweeter::GetName() const
+{
+    return firstname + " "+lastname + " "+ twitterhandle;
+}

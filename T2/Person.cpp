@@ -5,7 +5,7 @@ Person::Person(std::string first,
     std::string last, int aribitrary):
     firstname(first),lastname(last),arbitrarynumber(aribitrary),pResource(nullptr)
 {  
-   // std::cout  << "Constructing  " << GetName() << std::endl;
+    std::cout  << "Constructing  " << GetName() << std::endl;
 }
 
 // Person::Person(const Person& p):firstname(p.firstname),lastname(p.lastname),arbitrarynumber(p.arbitrarynumber),pResource(new Resource(p.pResource->GetName()))
@@ -15,7 +15,7 @@ Person::Person(std::string first,
 
 Person::~Person()
 {
-    //std::cout  << "Destructing  " << GetName() << std::endl;
+    std::cout  << "Destructing  " << GetName() << std::endl;
     //delete pResource;
 
 

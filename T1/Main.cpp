@@ -52,10 +52,12 @@ int main()
 
     Person Kate("Kate", "Gregory", 345);
     Kate.AddResource();
-    //Kate.AddResource();
+    Kate.AddResource();
     Person Kate2 = Kate;
     Kate = Kate2;
- 
+    string s1 = Kate.GetResourceName();
+    cout<<s1<<endl;
+
 
 
     // Tweeter P2("Behnam", "Hamidi",  787000, "@shoever");

@@ -11,4 +11,5 @@ class Tweeter:public Person
             int arbitrary,
             std::string handle);
         ~Tweeter(void);
+        std::string GetName() const;
 };
