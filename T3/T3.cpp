@@ -10,6 +10,6 @@ int main(int argc, char *argv[])
     CLogger::GetLogger()->Log("message to be logged");
     CLogger::GetLogger()->Log(message1);
     LOGGER->Log(" Message is:%s Number is:%d", message2.c_str(), nNum);
-    LOGGER->Log(" Message is:"+ message2 +"Number is:"+to_string(nNum));
+    LOGGER->Log(" Message is:"+ message2 +" Number is:"+to_string(nNum));
     return 0;
 }
