@@ -9,20 +9,8 @@
 namespace Util
 {
 
-    // converts character array
-    // to string and returns it
-    string convertToString(char* a, int size)
-    {
-        int i;
-        string s = "";
-        for (i = 0; i < size; i++) {
-            s = s + a[i];
-        }
-        return s;
-    }
-
-
-    // Get current date/time, format is YYYY-MM-DD.HH:mm:ss
+    
+  
     const std::string CurrentDateTime()
     {
 
@@ -33,14 +21,15 @@ namespace Util
         time_t cnow = Clock::to_time_t(now1);
         auto milliseconds = std::chrono::duration_cast<std::chrono::milliseconds>(fraction);
      
+       // Get current date/time, format is YYYY-MM-DD.HH:mm:ss
         time_t     now = time(NULL);
         struct tm  tstruct;
         char       buf[80];
         localtime_s(&tstruct, &now);
-        strftime(buf, sizeof(buf), "%Y-%m-%d.%X", &tstruct);
+        strftime(buf, sizeof(buf), "%Y-%m-%d %X", &tstruct);
         sprintf(buf,"%s:%0.3d",buf,milliseconds.count()) ;            
         return buf;
-         //return (std::string)buf + ":"+std::to_string(milliseconds.count());
+        
        
         
     }
