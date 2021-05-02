@@ -7,9 +7,11 @@
 			"command": "C:\\MinGW\\bin\\g++.exe",
 			"args": [
 				"-g",
-				"${workspaceFolder}\\T3\\*.cpp",
+				"${workspaceFolder}\\T4\\*.cpp",
 				"-o",
-				"${workspaceFolder}\\T3\\T3.exe"
+				"${workspaceFolder}\\T4\\T4.exe",
+				"-I",
+				 "C:\\Mingw\\include"
 			],
 			"options": {
 				"cwd": "${workspaceFolder}\\T3"
