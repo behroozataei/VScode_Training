@@ -22,3 +22,11 @@
 2021-05-02 09:14:50:744 ==>   logg message 1 ...
 2021-05-02 09:14:50:744 ==>   Message is:logg message 2 ... Number is:10
 2021-05-02 09:14:50:744 ==>   Message is:logg message 2 ... Number is:10
+2021-05-02 23:33:44:978 ==>   message to be logged
+2021-05-02 23:33:44:979 ==>   logg message 1 ...
+2021-05-02 23:33:44:979 ==>   Message is:logg message 2 ... Number is:10
+2021-05-02 23:33:44:979 ==>   Message is:logg message 2 ... Number is:10
+2021-05-02 23:33:54:572 ==>   message to be logged
+2021-05-02 23:33:54:572 ==>   logg message 1 ...
+2021-05-02 23:33:54:572 ==>   Message is:logg message 2 ... Number is:10
+2021-05-02 23:33:54:572 ==>   Message is:logg message 2 ... Number is:10

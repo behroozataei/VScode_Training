@@ -2,9 +2,19 @@
     "configurations": [
         {
             "name": "Win32",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "C:\\MinGW\\lib",
+                    "C:\\MinGW\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0",
+                    "C:\\MinGW\\lib\\gcc\\x86_64-w64-mingw32\\8.1.0\\include\\c++"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/MinGW/include"
+                "C:\\mingw\\include",
+                "C:\\boost\\include\\boost-1_68"                
                
             ],
             "defines": [
@@ -13,7 +23,7 @@
                 "_UNICODE"
             ],
             "windowsSdkVersion": "10.0.17134.0",
-            "compilerPath": "C:/MinGW/bin/g++",
+            "compilerPath": "C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64"
