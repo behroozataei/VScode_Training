@@ -7,13 +7,13 @@
 			"command": "C:/mingw/bin/g++.exe",
 			"args": [
 				"-g",
-				"${workspaceFolder}\\T4\\*.cpp",
+				"${workspaceFolder}\\T5\\*.cpp",
 				"-o",
-				"${workspaceFolder}\\T4\\T4.exe",
-				"-I",
-				 "C:\\boost\\include\\boost-1_68",
-				 "-L",
-				 "C:\\boost\\lib  -lboost_system" ,
+				"${workspaceFolder}\\T5\\T5.exe",
+				///"-I",
+				//  "C:\\boost\\include\\boost-1_68",
+				//  "-L",
+				//  "C:\\boost\\lib  -lboost_system" ,
 				  //libboost_thread-mgw81-mt-sd-x64-1_68.a libboost_thread-mgw81-mt-x64-1_68.a"
 				 //" libboost_thread-mgw81-mt-x64-1_68.a"
 				 // -libboost_thread-mgw81-mt-s-x64-1_68 -lboost_system -lboost_thread -lpthread"

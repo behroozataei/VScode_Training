@@ -14,7 +14,6 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "C:\\mingw\\include",
-                "C:\\boost\\include\\boost-1_68"                
                
             ],
             "defines": [
@@ -23,7 +22,7 @@
                 "_UNICODE"
             ],
             "windowsSdkVersion": "10.0.17134.0",
-            "compilerPath": "C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++",
+            "compilerPath": "C:/mingw/bin/g++",
             "cStandard": "c11",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64"
