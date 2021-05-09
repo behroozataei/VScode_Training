@@ -3,19 +3,24 @@
 using namespace std;
 int main()
 {
+    string Name,FamilyName;
     int arbitrary;
     try
-    {
+    {   cout<<"Enter Name :";
+        cin>>Name;
+        cout<<"Enter Family Name :";
+        cin>>FamilyName;
+        cout<<"Enter Arbitrary :";
+        cin>>arbitrary;
+        account *Ac1= new account(Name,FamilyName,arbitrary);
+        cout<<Name<<" "<<FamilyName<<" "<<arbitrary<<endl;
         
-        cin>>arbitrary;
-        account account1("behrooz","ataei",arbitrary);
-        cin>>arbitrary;
-        account account("behrooz","ataei",arbitrary);
     }
+    
 
     catch( invalid_argument& s)
     {
-        cout<<"Invalid Argument  "<<s.what()<<endl;
+        cout<<"Invalid Argument "<<s.what()<<endl;
     }
 
     catch( out_of_range& s)
@@ -27,6 +32,6 @@ int main()
         cout<<s.what()<<endl;
 
     }
-    cin>>arbitrary;
+    
 
 }
