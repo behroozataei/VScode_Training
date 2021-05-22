@@ -7,10 +7,11 @@
 			"command": "C:/mingw/bin/g++.exe",
 			"args": [
 				"-g",
-				"${workspaceFolder}\\T5\\*.cpp",
+				"${workspaceFolder}\\T6\\*.cpp",
 				"-o",
-				"${workspaceFolder}\\T5\\T5.exe",
-				///"-I",
+				"${workspaceFolder}\\T6\\T6.exe",
+				"-I",
+				"C:\\Program Files\\MySQL\\Connector C++ 8.0\\include\\jdbc"
 				//  "C:\\boost\\include\\boost-1_68",
 				//  "-L",
 				//  "C:\\boost\\lib  -lboost_system" ,

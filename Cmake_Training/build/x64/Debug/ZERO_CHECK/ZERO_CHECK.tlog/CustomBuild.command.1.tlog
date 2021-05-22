@@ -1,0 +1,10 @@
+^D:\TRAINING\C++\VSCODE_TRAINING\CMAKE_TRAINING\BUILD\CMAKEFILES\BC87F61D519964814079F73455B06613\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Training/C++/Vscode_training/Cmake_Training -BD:/Training/C++/Vscode_training/Cmake_Training/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Training/C++/Vscode_training/Cmake_Training/build/hello_world.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

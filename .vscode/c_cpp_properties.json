@@ -13,7 +13,10 @@
             },
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:\\mingw\\include"
+                "C:\\mingw\\include",
+                "C:\\sqlite-preprocessed-3350500",
+                "C:\\Program Files\\MySQL\\Connector C++ 8.0\\include\\jdbc"
+               
                
             ],
             "defines": [

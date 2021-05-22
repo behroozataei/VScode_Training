@@ -41,15 +41,15 @@ void worker(int i,WORD textcolor)
 void worker2(int i,int textcolor) 
 {
 	
-    a.lock();
+    a2.lock();
 	SetConsoleTextAttribute( hstdout, colors[textcolor] );	
 	for(int n=1;n<=10;n++)
 	{
 		general++;
     	cout <<general<<" :W2-Thread("<<i<<")  count("<<")" << endl;
-		std::this_thread::sleep_for(std::chrono::milliseconds(1));
+		std::this_thread::sleep_for(std::chrono::milliseconds(5));
 	}
-   a.unlock();
+   a2.unlock();
 }
 
 

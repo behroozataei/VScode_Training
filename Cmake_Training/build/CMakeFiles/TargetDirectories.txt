@@ -1,0 +1,4 @@
+D:/Training/C++/Vscode_training/Cmake_Training/build/CMakeFiles/my_shared_lib.dir
+D:/Training/C++/Vscode_training/Cmake_Training/build/CMakeFiles/app.dir
+D:/Training/C++/Vscode_training/Cmake_Training/build/CMakeFiles/ALL_BUILD.dir
+D:/Training/C++/Vscode_training/Cmake_Training/build/CMakeFiles/ZERO_CHECK.dir
